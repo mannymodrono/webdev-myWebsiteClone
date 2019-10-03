@@ -1,1 +1,38 @@
-/* CSS CODE HERE */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    width: 100vw;
+    height: 150px;
+    background: white;
+    border-bottom: 4px solid red;
+    display: inline-block;
+}
+
+.homeButton {
+    background-image: url(https://3uyz594036rf2bjfylrg8s47-wpengine.netdna-ssl.com/wp-content/themes/momo/assets/images/logo@2x.png?1476859236);
+    background-size: cover;
+    background-position: center;
+    width: 100px;
+    height: 120px;
+    display: inline-block;
+    margin: 15px 0 0 330px;
+}
+
+#topNav {
+    width: 1000px;
+    display: inline-block;
+    float: right;
+    margin: 30px 250px 0 0;
+}
+
+#topNav a {
+    color: #7a7d7d;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-decoration: none;
+    font-weight: 550;
+    font-size: 13px;
+    padding: 30px;
+}
