@@ -3,6 +3,8 @@ body {
     padding: 0;
 }
 
+/*------------- NavBar -------------*/
+
 #navbar {
     width: 100vw;
     height: 150px;
@@ -15,8 +17,8 @@ body {
     background-image: url(https://3uyz594036rf2bjfylrg8s47-wpengine.netdna-ssl.com/wp-content/themes/momo/assets/images/logo@2x.png?1476859236);
     background-size: cover;
     background-position: center;
-    width: 100px;
-    height: 120px;
+    width: 102px;
+    height: 122px;
     display: inline-block;
     margin: 15px 0 0 330px;
 }
@@ -35,4 +37,33 @@ body {
     font-weight: 550;
     font-size: 13px;
     padding: 30px;
+}
+
+#bottomNav {
+    width: 1100px;
+    display: inline-block;
+    position: absolute;
+    top: 110px;
+    left: 500px;
+}
+
+#bottomNav a {
+    color: #7a7d7d;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-decoration: none;
+    font-weight: 550;
+    font-size: 16px;
+    padding-right: 55px;
+    text-transform: uppercase;
+}
+
+/*-------------  Hero -------------*/
+
+#hero {
+    width: 100vw;
+    height: 750px;
+    background-image: url(https://3uyz594036rf2bjfylrg8s47-wpengine.netdna-ssl.com/wp-content/uploads/2019/07/momo-motorsport-rod-emory-356-rsr-1600x750.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
