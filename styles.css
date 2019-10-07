@@ -60,10 +60,49 @@ body {
 /*-------------  Hero -------------*/
 
 #hero {
+    padding: 0;
+    margin: 0;
     width: 100vw;
     height: 750px;
     background-image: url(https://3uyz594036rf2bjfylrg8s47-wpengine.netdna-ssl.com/wp-content/uploads/2019/07/momo-motorsport-rod-emory-356-rsr-1600x750.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+#heroBox {
+    height: 25%;
+    width: 12%;
+    padding: 30px;
+    margin: 0;
+    background: rgba(250,190,48,0.75);
+    position: absolute;
+    top: 300px;
+    left: 300px;
+    font-family: proxima-nova, sans-serif;
+}
+
+#heroTitle{
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    font-size: 160%;
+    line-height: 36px;
+}
+
+#herotext {
+    font-size: 19px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+#heroLink {
+    font-size: 95%;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #fabe30;
+    background-color: #d41a22;
+    width: 150px;
+    height: 40px;
+    text-align: center;
 }
