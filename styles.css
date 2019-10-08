@@ -103,6 +103,83 @@ body {
     color: #fabe30;
     background-color: #d41a22;
     width: 150px;
-    height: 40px;
+    height: 20px;
     text-align: center;
+    padding: 12px;
+}
+
+/*------------- email -------------*/
+
+#offersNews  {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100px;
+    background: #d41a22;
+    display: inline-block;
+}
+
+#offerText {
+    text-align: center;
+    margin: auto;
+    padding: 45px 0 0 610px;
+    font-family: proxima-nova, sans-serif;
+    color: #fabe30;
+    font-size: 30px;
+    font-weight: 400;
+    width: 400px;
+    display: inline-block;
+}
+
+#email {
+    background: white;
+    margin: auto;
+    padding: 0;
+    height: 30px;
+    width: 300px;
+    display: inline-block;
+}
+
+#emailText {
+    color: gray;
+    padding: 5px 0 0 4px;
+    margin: 0;
+}
+
+#arrow {
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    background: #fabe30;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    top: 957px;
+}
+
+/*------------- World -------------*/
+
+#world {
+    margin: auto;
+}
+
+#momoWorld {
+   text-align: center;
+}
+
+.worldimgs {
+    display: inline-block;
+    margin: auto;
+}
+
+.worldimgs img {
+    width: 250px;
+
+}
+
+.worldText {
+
 }
