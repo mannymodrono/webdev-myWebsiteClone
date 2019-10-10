@@ -164,10 +164,21 @@ body {
 
 #world {
     margin: auto;
+    width: 100vw;
+    height: 350px;
+    background: #ebebeb;
+    margin-bottom: 35px;
 }
 
 #momoWorld {
    text-align: center;
+   padding: 30px 0 15px 0;
+   margin: 0;
+   font-family: proxima-nova, sans-serif;
+   font-size: 30px;
+   text-transform: uppercase;
+   color: #737280;
+   font-weight: 600;
 }
 
 .worldimgs {
@@ -177,9 +188,86 @@ body {
 
 .worldimgs img {
     width: 250px;
+    padding: 10px 10px 0 10px;
+}
 
+#imgbox{
+    height: 300px;
+    width: 1400px;
+    margin: auto;
 }
 
 .worldText {
+    text-align: center;
+    margin: 10px;
+    font-family: proxima-nova, sans-serif;
+    font-size: 17px;
+    text-transform: uppercase;
+    color: #4b5759;
+    font-weight: 600;
+}
 
+/*------------- footer -------------*/
+
+#footer {
+    width: 100vw;
+    height: 420px;
+    background: #252525;
+}
+
+#footerContent {
+    height: 420px;
+    width: 1200px;
+    margin: auto;
+}
+
+#footerimg {
+    display: inline-block;
+}
+
+#logo {
+    width: 100px;
+    padding: 65px 130px 50px 0;
+    margin: 0;
+    display: block;
+}
+
+#safety {
+    width: 120px;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+
+.links {
+    width: 200px;
+    display: inline-block;
+    margin: 0;
+    color: #e3e3e3;
+    font-family: proxima-nova, sans-serif;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    padding-top: 50px;
+}
+
+.links li {
+    list-style: none;
+    padding: 10px;
+}
+
+
+#lowerFooter{
+    width: 100vw;
+    height: 60px;
+    margin: auto;
+}
+
+#lowerFooter p {
+    text-align: center;
+}
+
+#lowerFooterimg {
+    margin: auto;
+    padding: 0;
 }
