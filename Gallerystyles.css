@@ -64,147 +64,51 @@ body {
     margin: 0;
     width: 100vw;
     height: 750px;
-    background-image: url(https://3uyz594036rf2bjfylrg8s47-wpengine.netdna-ssl.com/wp-content/uploads/2019/07/momo-motorsport-rod-emory-356-rsr-1600x750.jpg);
+    background-image: url(https://3uyz594036rf2bjfylrg8s47-wpengine.netdna-ssl.com/wp-content/uploads/2019/10/banner-image-honda-s2000-track-car-momo-wheels-heritage-6-bronze-classic-motorsports-willow-springs-raceway-h.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-#heroBox {
-    height: 25%;
-    width: 12%;
-    padding: 30px;
+#s2k {
+    width: 350px;
+    height: 220px;
     margin: 0;
-    background: rgba(250,190,48,0.75);
+    background-color: #fd0;
     position: absolute;
-    top: 300px;
-    left: 300px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, .25);
+    top: 215px;
     font-family: proxima-nova, sans-serif;
+    line-height: 15px;
 }
 
-#heroTitle{
-    padding: 0;
+#s2kText {
+    text-transform: uppercase;
+    padding-left: 20px;
+    padding-top: 40px;
+}
+
+#s2kSubText {
+    text-transform: uppercase;
+    padding-top: 0;
     margin: 0;
-    text-align: left;
-    font-size: 160%;
-    line-height: 36px;
-}
-
-#herotext {
-    font-size: 19px;
-    font-weight: 300;
-    line-height: 30px;
+    padding-left: 20px;
+    font-size: 21px;
+    font-weight: 600;
 }
 
 #heroLink {
-    font-size: 95%;
+    font-size: 75%;
     font-weight: 300;
     text-transform: uppercase;
-    color: #fabe30;
+    color: white;
     background-color: #d41a22;
-    width: 150px;
+    width: 80px;
     height: 20px;
     text-align: center;
     padding: 12px;
-}
-
-/*------------- email -------------*/
-
-#offersNews  {
-    padding: 0;
-    margin: 0;
-    width: 100vw;
-    height: 100px;
-    background: #d41a22;
-    display: inline-block;
-}
-
-#offerText {
-    text-align: center;
-    margin: auto;
-    padding: 45px 0 0 610px;
-    font-family: proxima-nova, sans-serif;
-    color: #fabe30;
-    font-size: 30px;
-    font-weight: 400;
-    width: 400px;
-    display: inline-block;
-}
-
-#email {
-    background: white;
-    margin: auto;
-    padding: 0;
-    height: 30px;
-    width: 300px;
-    display: inline-block;
-}
-
-#emailText {
-    color: gray;
-    padding: 5px 0 0 4px;
-    margin: 0;
-}
-
-#arrow {
-    padding: 0;
-    margin: 0;
-    display: inline-block;
-    background: #fabe30;
-    height: 30px;
-    width: 30px;
-    text-align: center;
-    color: white;
-    font-size: 30px;
-    position: absolute;
-    top: 957px;
-}
-
-/*------------- World -------------*/
-
-#world {
-    margin: auto;
-    width: 100vw;
-    height: 350px;
-    background: #ebebeb;
-    margin-bottom: 35px;
-}
-
-#momoWorld {
-   text-align: center;
-   padding: 30px 0 15px 0;
-   margin: 0;
-   font-family: proxima-nova, sans-serif;
-   font-size: 30px;
-   text-transform: uppercase;
-   color: #737280;
-   font-weight: 600;
-}
-
-.worldimgs {
-    display: inline-block;
-    margin: auto;
-}
-
-.worldimgs img {
-    width: 250px;
-    padding: 10px 10px 0 10px;
-}
-
-#imgbox{
-    height: 300px;
-    width: 1400px;
-    margin: auto;
-}
-
-.worldText {
-    text-align: center;
-    margin: 10px;
-    font-family: proxima-nova, sans-serif;
-    font-size: 17px;
-    text-transform: uppercase;
-    color: #4b5759;
-    font-weight: 600;
+    margin-left: 20px;
+    margin-top: 10px;
 }
 
 /*------------- footer -------------*/
